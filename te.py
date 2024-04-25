@@ -13,7 +13,7 @@ class te ():
                 t_preparacion = 6
             else:
                 print("Ingrese una opción valida")
-                flavor = int(input("Ingrese el Té que desea ordenar: \n1)Té Negro \n2)Té Verde \n3)Infusión de Hierbas\n"))
+                input("Ingrese el Té que desea ordenar: \n1)Té Negro \n2)Té Verde \n3)Infusión de Hierbas\n")
             return flavor, t_preparacion
             
     @staticmethod    
