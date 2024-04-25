@@ -1,7 +1,7 @@
 from te import te
 
-t_sabor = te.sabor
-size_te = te.tamano
+t_sabor = te()
+size_te = te()
 
 print(f'{type(t_sabor)}, {type(size_te)}')
 
