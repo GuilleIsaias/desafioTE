@@ -6,30 +6,30 @@ class te ():
     def t_preparacion(flavor):
         while True:
             if flavor == 1:
-                print("Su tiempo de preparacion es de 3 minutos")
-                print("Se recomienda consumir al desayuno")
+                t_preparacion = 3
             elif flavor == 2:
-                print("Su tiempo de preparacion es de 5 minutos")
-                print("Se recomienda consumir al medio día")
+                t_preparacion = 5
             elif flavor == 3:
-                print("Su tiempo de preparacion es de 6 minutos")
-                print("Se recomienda consumir al atardecer")
+                t_preparacion = 6
             else:
                 print("Ingrese una opción valida")
                 flavor = int(input("Ingrese el Té que desea ordenar: \n1)Té Negro \n2)Té Verde \n3)Infusión de Hierbas\n"))
-            break
-        
+            return flavor, t_preparacion
+            
     @staticmethod    
     def p_te(size):
         while True:
             if size == 1:
-                print("El valor es $3000")
+                size = 300
+                price = 3000
             elif size == 2:
-                print("El valor es $5000")
+                size  = 500
+                price = 5000
             else:
                 print("Ingrese una opción valida")
                 size = int(input("Ingrese el tamaño que desea: \n1) Pequeño (300gr)\n2) Grande (500gr)\n"))
-            break
+            return size, price
+            
 
 
 
