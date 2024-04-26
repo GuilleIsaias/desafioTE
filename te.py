@@ -1,7 +1,9 @@
-class te ():
+class te (): #definimos la clase y agregamos sus atributos
     sabor = ["negro", "verde", "hierbas"]
     tamano = [300, 500]
     time_preparacion = [3, 5, 6]
+
+# Creacion de funciones segun requerimientos
     @staticmethod
     def t_preparacion(flavor):
         while True:
